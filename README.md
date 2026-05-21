@@ -9,6 +9,7 @@ Introductory data science assignments for the **CariSurg 2026** programme. Week 
 ```
 Carisurg2026-Week0/
 └── Assignment1.ipynb   # Day 1 - Data Cleaning: Gender Column
+└── Assignment2.ipynb   # Day 2 - Data Cleaning: RR Column
 ```
 
 ---
@@ -29,7 +30,15 @@ Loads a reduced version of an Emergency Triage dataset and performs targeted cle
   - `0` → Female
 - Replacing the original raw column with the cleaned version
 
-**Dataset:** `EmergencyTriageDataset_Reduced_Dirty.csv` *(not included in this repository - provided separately by course facilitators)*
+### Day 2 - Data Cleaning: RR Column (`Assignment2.ipynb`)
+
+- Loading a CSV dataset with pandas and inspecting the unique values, data type and statistical measures of the RR column
+- Removing values outside of the expected clinical range
+- Utilizing visualizations to assist in decision-making regarding NaN values
+- Utilizing median-based imputation to replace instances of NaN values and avoiding removal of rows entirely
+
+### Dataset
+`EmergencyTriageDataset_Reduced_Dirty.csv` *(not included in this repository - provided separately by course facilitators)*
 
 ---
 
@@ -40,3 +49,4 @@ Loads a reduced version of an Emergency Triage dataset and performs targeted cle
 - Required libraries:
   - `pandas`
   - `numpy`
+  - `matplotlib`
