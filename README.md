@@ -10,6 +10,7 @@ Introductory data science assignments for the **CariSurg 2026** programme. Week 
 Carisurg2026-Week0/
 └── Assignment1.ipynb   # Day 1 - Data Cleaning: Gender Column
 └── Assignment2.ipynb   # Day 2 - Data Cleaning: RR Column
+└── Assignment3.ipynb   # Day 3 - Data Visualization
 ```
 
 ---
@@ -36,6 +37,12 @@ Loads a reduced version of an Emergency Triage dataset and performs targeted cle
 - Removing values outside of the expected clinical range
 - Utilizing visualizations to assist in decision-making regarding NaN values
 - Utilizing median-based imputation to replace instances of NaN values and avoiding removal of rows entirely
+
+### Day 3 - Data Visualization (`Assignment3.ipynb`)
+
+- Using `matplotlib` create visualizations to aid in the answering of clinical questions
+- Create a histogram of the Respiratory Rate (RR) distribution to answer: "What is the distribution of respiratory rates among patients, and how many fall outside the normal respiratory range?"
+- Create a scatter plot of RR vs. Fio2 (Fraction of Inspired Oxygen) to determine if: "Do patients requiring higher oxygen concentrations also have higher respiratory rates?"
 
 ### Dataset
 `EmergencyTriageDataset_Reduced_Dirty.csv` *(not included in this repository - provided separately by course facilitators)*
