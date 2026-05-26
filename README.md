@@ -11,8 +11,8 @@ Carisurg2026-Week0/
 └── Assignment1.ipynb   # Day 1 - Data Cleaning: Gender Column
 └── Assignment2.ipynb   # Day 2 - Data Cleaning: RR Column
 └── Assignment3.ipynb   # Day 3 - Data Visualization
-└── Assignment4.ipynb   # Day 4 - Vital Sign Description
-└── Assignment5.ipynb   # Day 5 - Unconsidered Metrics
+└── Assignment4.pdf   # Day 4 - Vital Sign Description
+└── Assignment5.pdf   # Day 5 - Unconsidered Metrics
 ```
 
 ---
