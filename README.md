@@ -13,6 +13,7 @@ Carisurg2026-Week0/
 └── Assignment3.ipynb   # Day 3 - Data Visualization
 └── Assignment4.pdf   # Day 4 - Vital Sign Description
 └── Assignment5.pdf   # Day 5 - Unconsidered Metrics
+└── Assignment6.pdf   # Day 6 - Triage Pseudocode
 ```
 
 ---
@@ -58,6 +59,10 @@ Loads a reduced version of an Emergency Triage dataset and performs targeted cle
 - Define what SpO2 is
 - State the clinical range of SpO2
 - Explain the importance of SpO2 in the triaging process
+
+### Day 6 - Triage Pseudocode (`Assignment6.pdf`)
+
+- Using instruction-based pseudocode, how a digital system can process patient data and categorize them into a risk level
 
 ### Dataset
 `EmergencyTriageDataset_Reduced_Dirty.csv` *(not included in this repository - provided separately by course facilitators)*
